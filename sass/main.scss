@@ -1,3 +1,46 @@
+body {
+  background-color: #439BF5;
+}
+
 .container {
-  
+
+  padding: 2em 0 2em 0;
+
+  svg {
+    position: fixed;
+    margin: auto;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .happy {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .ticket {
+    height: 90%;
+    max-width: 95%;
+    opacity: 0.0;
+  }
+
+  .path {
+
+    height: 90%;
+    max-width: 95%;
+  }
+
+  .frame {
+    height: 40000px;
+  }
+
 }
