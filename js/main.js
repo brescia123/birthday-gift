@@ -39,6 +39,6 @@ $(document).ready(function() {
     $happy.css("stroke-dashoffset", $newUnitHappy - $offsetUnitPathHappy);
     $('.happy').css('opacity', ((50 - $percentageComplete) * 4) / 100);
     $path.css("stroke-dashoffset", $newUnit - $offsetUnitPath);
-    $ticket.css("opacity", (($percentageComplete - 75) * 5) / 100);
+    $ticket.css("opacity", (($percentageComplete - 75) * 50) / 100);
   });
 });
